@@ -71,34 +71,12 @@ h6 {
 }
 
 .logo {
-  width: 100%;
-}
-
-.nav__title {
-  text-align: center;
-  grid-column: 1 / 4;
-}
-
-.nav__subtitle {
-  text-align: center;
-  grid-column: 1 / 4;
-}
-
-.nav__description {
-  margin-top: 3rem;
-  text-align: center;
-  grid-column: 1 / 4;
-  align-self: center;
+  width: 40%;
 }
 
 .text__blue-bold {
   color: var(--blue-main);
   font-weight: var(--font-bold);
-}
-
-.nav__illustration {
-  grid-column: 4/7;
-  grid-row: 1 / 7;
 }
 
 .illustration {
