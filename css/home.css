@@ -28,12 +28,18 @@
 
 body {
   font-family: var(--body-font-family);
+  color: var(--bs-black);
+  background-image: url(/img/bg.svg);
 }
 
 header {
   padding: 0.5rem 1.5rem 0 1.5rem;
   background: #fdfdfd;
   box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
 }
 
 h6 {
@@ -52,11 +58,49 @@ h6 {
   border: 0;
 }
 
+.home {
+  display: grid;
+  margin: 40px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat();
+}
+
 .nav-link {
   color: var(--bs-black);
   font-size: 1.25rem;
 }
 
 .logo {
-  width: 70%;
+  width: 100%;
+}
+
+.nav__title {
+  text-align: center;
+  grid-column: 1 / 4;
+}
+
+.nav__subtitle {
+  text-align: center;
+  grid-column: 1 / 4;
+}
+
+.nav__description {
+  margin-top: 3rem;
+  text-align: center;
+  grid-column: 1 / 4;
+  align-self: center;
+}
+
+.text__blue-bold {
+  color: var(--blue-main);
+  font-weight: var(--font-bold);
+}
+
+.nav__illustration {
+  grid-column: 4/7;
+  grid-row: 1 / 7;
+}
+
+.illustration {
+  size: 100%;
 }
