@@ -4,6 +4,9 @@
 /* === Custom Class === */
 @import url(./custom.css);
 
+/* === Responsividade === */
+@import url(./responsive.css);
+
 /* === Fonts === */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
