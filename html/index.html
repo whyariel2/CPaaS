@@ -10,27 +10,85 @@
   <link rel="shortcut icon" href="/img/Logo 2.svg" type="image/x-icon">
 
   <!-- Link CSS Home -->
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="../css/main.css">
 
   <title>CPaaS</title>
 </head>
 
 <body>
 
-  <div>
-    <!-- Header da Página -->
-    <header
-      class-="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mb-4 border-bottom">
+  <!-- === Header da Página === -->
+  <div id="header">
+    <div class="container">
 
-      <!-- Div para Coluna -->
-      <div class="row">
-        <!-- Logo CPaaS -->
-        <div class="col">
-          <img src="/img/logo-dark.svg" alt="/" class="logo">
+      <!-- Tamanho da Navbar para o Collapse -->
+      <nav class="navbar navbar-expand-md justify-content-between">
+
+        <!-- Icon Modavo -->
+        <a class="navbar-brand" href="#">
+          <img src="/img/logo-dark.svg" class="img-fluid" />
+        </a>
+
+        <!-- === Button quando houver o Collapse === -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--=== Mudança para Menu Hamburguer ===-->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+
+          <!-- === Menu === -->
+          <ul class="navbar-nav">
+
+            <!-- Drop Down Menu -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Serviços
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./serv1.html">2FA</a></li>
+                <li><a class="dropdown-item" href="./serv2.html">Número Máscara</a></li>
+                <li><a class="dropdown-item" href="./serv3.html">Google Verified Calls</a></li>
+                <li><a class="dropdown-item" href="./serv4.html">SMS Programável</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Telecall</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+
         </div>
 
-        <!-- Menu -->
-        <div class="col-6 align-self-center justify-content-center">
+        <!-- === Button === -->
+        <div class="d-flex navbar-item div__button justify-content-end">
+          <a href="/html/login.html" class="btn btn-login" role="button">ENTRAR</a>
+        </div>
+
+      </nav>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Header da Página -->
+  <!-- <header class-="d-flex align-items-center justify-content-center justify-content-md-between mb-4 border-bottom">
+
+    <div class="row">
+      <div class="col-4">
+          <img src="/img/logo-dark.svg" alt="/" class="logo">
+      </div>
+
+        <div class="col align-self-center justify-content-center">
           <ul class="nav justify-content-center">
             <li class="nav-item">
               <a class="nav-link active" href="/">Serviços</a>
@@ -43,50 +101,102 @@
             </li>
           </ul>
         </div>
-
-        <!-- Button para Página de Login -->
         <div class="col nav justify-content-end align-items-center">
           <a class="btn-login btn " role="button" href="/login">ENTRAR</a>
         </div>
+      </div> 
+
+    </header>-->
+
+  <!-- Introdução -->
+  <nav class="container-lg">
+    <div class="row">
+      <!-- Coluna Geral -->
+      <div class="col-12 col-md-7">
+
+        <!-- Coluna de Textos -->
+        <div class="row">
+          <div class="col-12 col-md-12 align-itens-center">
+            <h1 class="align-itens-center">Communications Plataform as a Service</h1>
+          </div>
+
+          <div class="col-12 col-md-12 align-itens-center">
+            <h6 class="justify-content-center">Plataforma de Comunicação como Serviço</h6>
+          </div>
+
+          <div class="col-12 col-md-12">
+            <p>O CPaaS, com sua <span class="text__blue-bold">escalabilidade, flexibilidade, autenticação</span> e
+              <span class="text__blue-bold">segurança</span>
+              aprimoradas, está <span class="text__blue-bold">revolucionando</span> o modo como as empresas habilitadas
+              em nuvem implementam <span class="text__blue-bold">comunicações de voz, SMS e vídeo.</span>
+            </p>
+          </div>
+
+          <!-- === Button === -->
+          <div class="col-6 col-md-6">
+            <a class="btn-login btn" role="button" href="/login">COMECE AGORA</a>
+          </div>
+
+          <div class="col-6 col-md-6">
+            <a class="#" href="#">SOBRE NÓS</a>
+          </div>
+
+        </div>
       </div>
 
-    </header>
-
-    <!-- Introdução -->
-    <nav class="container d-grid">
-      <div class="title col justify-content-center">
-        <h1 class="">Communications Plataform as a Service</h1>
+      <!-- Coluna Imagem -->
+      <div class="col-12 col-md-5">
+        <img src="/img/online-world-animate.svg" alt="Online illustrations by Storyset">
       </div>
 
-      <div class="sub-title justify-content-center">
-        <h6 class="align-self-center">Plataforma de Comunicação como Serviço</h6>
+    </div>
+  </nav>
+
+
+  <!-- HOME -->
+  <!-- <nav class="home row">
+      <div class="nav__title">
+        <h1>Communications Plataform as a Service</h1>
       </div>
 
-      <div class="justify-content-center">
-        <p>O CPaaS, com sua <span>escalabilidade, flexibilidade, autenticação</span> e <span>segurança</span>
-          aprimoradas, está <span>revolucionando</span> o modo como as empresas habilitadas em nuvem implementam
-          <span>comunicações de voz, SMS e vídeo.</span>
+      <div class="nav__subtitle">
+        <h6>Plataforma de Comunicação como Serviço</h6>
+      </div>
+
+      <div class="nav__description">
+        <p>O CPaaS, com sua <span class="text__blue-bold">escalabilidade, flexibilidade, autenticação</span> e <span
+            class="text__blue-bold">segurança</span>
+          aprimoradas, está <span class="text__blue-bold">revolucionando</span> o modo como as empresas habilitadas em
+          nuvem implementam
+          <span class="text__blue-bold">comunicações de voz, SMS e vídeo.</span>
         </p>
       </div>
 
-      <div class="flex-shrink-0 col order-3">
-        <img class="illustration float-end" src="/img/online-world-animate.svg" alt="Online World Animate">
+      <div class="nav__illustration">
+        <img class="illustration" src="/img/online-world-animate.svg" alt="">
+      </div>
+
+      <div class="nav__btn">
+        <a class="btn-login btn" role="button" href="/login">COMECE AGORA</a>
       </div>
 
       <div>
-        <a class="btn-login btn" role="button" href="/login">COMECE AGORA</a>
         <a class="#" href="#">SOBRE NÓS</a>
       </div>
 
-    </nav>
-  </div>
+    </nav> -->
 
 
+  <!-- Poppers JS BootStrap Link -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
 
   <!-- JS BootStrap Link -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>
