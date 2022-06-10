@@ -54,11 +54,6 @@ html {
   width: auto;
 }
 
-.div__button {
-  width: 162px;
-  margin-left: 16px;
-}
-
 .btn-login {
   padding: 10px 30px;
   color: var(--bs-white);
