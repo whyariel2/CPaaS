@@ -11,6 +11,7 @@
   border: 0;
 }
 
+/* Mudança de cor do texto ao passar mouse */
 .button:hover {
   text-transform: capitalize;
   padding: 10px 30px;
@@ -24,6 +25,8 @@
   border: 0;
 }
 
-.button-secondary {
-  height: 64px;
+/* Cor do Span */
+span {
+  color: var(--blue-main);
+  font-weight: var(--font-semibold);
 }
