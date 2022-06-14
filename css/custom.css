@@ -51,19 +51,34 @@ html {
   background-size: contain;
 }
 
+#services img {
+  max-height: 6rem;
+}
+
 #services a.service {
   display: block;
+  min-height: 334px;
   background: var(--main-white);
   border-radius: 5px;
   text-align: center;
   padding: 20px;
   color: var(--main-black);
   text-decoration: none;
-  transform: translateY(0px);
-  transition-duration: 500ms;
-  opacity: 1;
+  transition: all ease-out 0.2s;
 }
 
 #services a.service:hover {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  transform: scale(1);
+}
+
+#services h5 {
+  color: var(--main-black);
+  font-weight: var(--font-semibold);
+  min-height: 48px;
+}
+
+#services p {
+  color: var(--grey-medium);
+  font-size: 0.75rem;
 }
