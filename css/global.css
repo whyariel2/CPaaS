@@ -3,6 +3,12 @@
   font-weight: var(--font-semibold);
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
 a {
   color: var(--main-white);
 }

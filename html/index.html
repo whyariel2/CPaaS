@@ -19,7 +19,7 @@
 
   <!-- === Header da Página === -->
   <div id="header">
-    <div class="container-fluid">
+    <div class="container">
 
       <!-- Tamanho da Navbar para o Collapse -->
       <nav class="navbar navbar-expand-lg justify-content-between">
@@ -43,7 +43,7 @@
 
             <!-- Drop Down Menu -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Serviços
               </a>
@@ -105,16 +105,18 @@
   </div>
 
   <!-- === SERVIÇOS === -->
-  <div id="services" class="block">
-    <div class="container mt-5">
+  <div id="services">
+    <div class="container">
+      <div class="mt-5 mb-5">
 
-      <h2 class="title-white text-center mb-5">Nossos Serviços</h2>
+        <h2 class="title-white text-center">Nossos Serviços</h2>
+      </div>
 
       <!-- === Grid com os serviços === -->
       <div class="row">
 
         <!-- === 2FA === -->
-        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 animated" data-show-="startbox">
+        <div class="col-lg-3 col-md-6 mb-3 mb-lg-0 animated" data-show-="startbox">
           <a href="./serv1.html" class="service">
             <div class="img-container mb-3">
               <img src="../img/cadeado-ico.svg" alt="">
@@ -126,7 +128,7 @@
         </div>
 
         <!-- === Número Máscara === -->
-        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
           <a href="./serv1.html" class="service">
             <div class="img-fluid mb-3">
               <img src="../img/phone-ico.svg" alt="">
@@ -162,7 +164,60 @@
         </div>
       </div>
     </div>
+
+    <!-- === Parceiros === -->
+    <div id="parceiros">
+
+      <div class="container mb-5">
+        <div class="row">
+
+          <!-- === Icones === -->
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <a href="" class="link-parceiros">
+              <img class="img-fluid" src="../img/amazon-ar21.svg" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-sm-4">
+            <a href="" class="link-parceiros">
+              <img class="img-fluid" src="../img/facebook-logo.svg" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <a href="" class="link-parceiros">
+              <img class="img-fluid" src="../img/bradesco_logo_2018.svg" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <a href="" class="link-parceiros">
+              <img class="img-fluid" src="../img/booking_logo.svg" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <a href="" class="link-parceiros">
+              <img class="img-fluid" src="../img/instagram_logo.svg" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <a href="" class="link-parceiros">
+              <img class="img-fluid" src="../img/icons8-netflix.svg">
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </div>
+
+  <!-- === Mais Info === -->
+  <div id="info" class="block">
+
+  </div>
+
 
   <!-- Poppers JS BootStrap Link -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"

@@ -9,12 +9,15 @@ html {
 }
 
 /* === HEADER === */
-
 #header {
   width: 100%;
   background-color: var(--main-white);
   transition: background ease-out 0.2s;
   box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+#header .nav-collapse {
+  width: auto;
 }
 
 #header .nav-link {
@@ -46,22 +49,24 @@ html {
   font-weight: var(--font-extralight);
 }
 
+/* === SERVIÇOS === */
 #services {
-  background: url(../img/blue-bg.svg) no-repeat center top;
-  background-size: 100vw;
+  margin-top: 3rem;
+  background: url(../img/blue-bg.svg) no-repeat center bottom;
+  background-size: cover;
 }
 
 #services img {
-  max-height: 6rem;
+  max-height: 5rem;
 }
 
 #services a.service {
   display: block;
-  min-height: 334px;
+  min-height: 324px;
   background: var(--main-white);
-  border-radius: 5px;
+  border-radius: 40px;
   text-align: center;
-  padding: 20px;
+  padding: 10px 20px;
   color: var(--main-black);
   text-decoration: none;
   transition: all ease-out 0.2s;
@@ -75,10 +80,38 @@ html {
 #services h5 {
   color: var(--main-black);
   font-weight: var(--font-semibold);
-  min-height: 48px;
+  max-height: 48px;
 }
 
 #services p {
   color: var(--grey-medium);
   font-size: 0.75rem;
+}
+
+/* === PARCEIROS === */
+
+#parceiros a.link-parceiros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  transition: all ease-out 0.2s;
+}
+
+#parceiros a.link-parceiros:hover {
+  transform: scale(1.05);
+  color: var(--main-white);
+  opacity: 1;
+}
+
+#parceiros a.link-parceiros img {
+  color: var(--grey-normal);
+  max-height: 30px;
+  width: 100%;
+  opacity: 0.5;
+}
+
+#parceiros a.link-parceiros:hover img {
+  color: var(--main-white);
+  opacity: 1;
 }
