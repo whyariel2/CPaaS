@@ -115,3 +115,8 @@ html {
   color: var(--main-white);
   opacity: 1;
 }
+
+/* === MAIS INFORMAÇÕES === */
+#info span {
+  font-size: 1.5rem;
+}
