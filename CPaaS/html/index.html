@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Icon da página -->
+  <link rel="shortcut icon" href="/img/logo.svg" type="image/x-icon">
+
+  <!-- Link CSS Home -->
+  <link rel="stylesheet" href="../css/main.css">
+
+  <title>CPaaS</title>
+</head>
+
+<body>
+
+  <!-- === Header da Página === -->
+  <div id="header">
+    <div class="container-fluid">
+
+      <!-- Tamanho da Navbar para o Collapse -->
+      <nav class="navbar navbar-expand-lg justify-content-between">
+
+        <!-- Icon Modavo -->
+        <a class="navbar-brand" href="/">
+          <img src="/img/logo-dark.svg" alt="Online illustrations by Storyset" class="img-fluid" />
+        </a>
+
+        <!-- === Button quando houver o Collapse === -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--=== Mudança para Menu Hamburguer ===-->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+          <!-- === Menu === -->
+          <ul class="navbar-nav">
+
+            <!-- Drop Down Menu -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Serviços
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./serv1.html">2FA</a></li>
+                <li><a class="dropdown-item" href="./serv2.html">Número Máscara</a></li>
+                <li><a class="dropdown-item" href="./serv3.html">Google Verified Calls</a></li>
+                <li><a class="dropdown-item" href="./serv4.html">SMS Programável</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Telecall</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+
+        </div>
+
+        <!-- === Button === -->
+        <div class="collapse navbar-collapse div__button justify-content-end" id="navbarNav">
+          <a href="/html/login.html" class="btn button" role="button">ENTRAR</a>
+        </div>
+
+      </nav>
+    </div>
+  </div>
+
+  <!-- === INTRODUÇÃO === -->
+  <div id="first__part">
+    <div class="container-fluid mb-3 mt-5">
+      <div class="row">
+        <div class="col-md-7 align-self-center text-center">
+
+          <h1 class="title mb-0">Communications Plataform as a Service</h1>
+
+          <h6 class="justify-content-center mb-5  fst-italic">Plataforma de Comunicação como Serviço</h6>
+
+          <p class="mb-5">O CPaaS, com sua <span class="text__blue-bold">escalabilidade, flexibilidade,
+              autenticação</span> e
+            <span class="text__blue-bold">segurança</span>
+            aprimoradas, está <span class="text__blue-bold">revolucionando</span> o modo como as empresas habilitadas
+            em nuvem implementam <span class="text__blue-bold">comunicações de voz, SMS e vídeo.</span>
+          </p>
+
+          <!-- === Button === -->
+          <a class="button btn" role="button" href="/login">COMECE AGORA</a>
+        </div>
+
+
+        <div class="col-md-5 align-self-center text-center">
+          <img src="/img/online-world-animate.svg" alt="Online illustrations by Storyset">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- === SERVIÇOS === -->
+  <div id="services" class="block">
+    <div class="container mt-5">
+
+      <h2 class="title-white text-center mb-5">Nossos Serviços</h2>
+
+      <!-- === Grid com os serviços === -->
+      <div class="row">
+
+        <!-- === 2FA === -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 animated" data-show-="startbox">
+          <a href="./serv1.html" class="service">
+            <div class="img-container mb-3">
+              <img src="../img/cadeado-ico.svg" alt="">
+            </div>
+            <h5 class="align-self-center">2FA</h5>
+            <p class="mb-0">É um procedimento de segurança que garante que serão nessários 2 fatores únicos para
+              liberação de uma ação.</p>
+          </a>
+        </div>
+
+        <!-- === Número Máscara === -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <a href="./serv1.html" class="service">
+            <div class="img-fluid mb-3">
+              <img src="../img/phone-ico.svg" alt="">
+            </div>
+            <h5>Número Máscara</h5>
+            <p class="mb-0">Garanta aos seus clientes a capacidade de fazer chamadas e enviar mensagens sem expor seus
+              números de telefone pessoais.</p>
+          </a>
+        </div>
+
+        <!-- === Google Verified Calls === -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <a href="./serv1.html" class="service">
+            <div class="img-container mb-3">
+              <img src="../img/check-ico.svg" alt="">
+            </div>
+            <h5>Google Verified Calls</h5>
+            <p class="mb-0">Exclusivo para telefones Android, permite que empresas exibam para o cliente na hora da
+              chamada sua marca, logotipo e até mesmo o motivo da chamada.</p>
+          </a>
+        </div>
+
+        <!-- === SMS Programável === -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <a href="./serv1.html" class="service">
+            <div class="img-container mb-3">
+              <img src="../img/message-ico.svg" alt="">
+            </div>
+            <h5>SMS Programável</h5>
+            <p class="mb-0">Com essa ferramenta você envia mensagens de SMS com as informações que o seu cliente
+              precisa.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Poppers JS BootStrap Link -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+
+  <!-- JS BootStrap Link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <!-- Jquery Link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Script JS -->
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
