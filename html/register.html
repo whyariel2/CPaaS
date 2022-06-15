@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/register.css">
+  <title>Registro CPaaS</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-image">
+      <img src="../img/insert-block-bro.svg">
+    </div>
+    <div class="form">
+      <form action="#">
+        <div class="form-header">
+          <div class="title">
+            <h1>Cadastre-se</h1>
+          </div>
+          <div class="login-button">
+            <p class="already">Já tem conta?</p><a href="../html/login.html">Entrar</a>
+          </div>
+        </div>
+        <div class="input-group">
+          <div class="input-box">
+            <label for="Nome">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Insira seu nome completo" minlength="15"
+              maxlength="60" oninvalid="this.setCustomValidity('Preencha com seu nome completo')"
+              oninput='this.setCustomValidity("")' required>
+          </div>
+
+          <div class="input-box">
+            <label for="Nome Materno">Nome Materno</label>
+            <input type="text" id="nome-materno" name="nome-materno" placeholder="Insira seu nome materno"
+              oninvalid="this.setCustomValidity('Preencha com seu nome materno')" oninput='this.setCustomValidity("")'
+              required>
+          </div>
+          <div class="input-box">
+            <label for="CPF">CPF</label>
+            <input type="text" id="cpf" name="cpf" placeholder="Insira seu CPF"
+              oninvalid="this.setCustomValidity('Preencha com seu CPF')" oninput='this.setCustomValidity("")' required>
+          </div>
+          <div class="input-box">
+            <label for="Telefone Celular">Telefone Celular</label>
+            <input type="text" id="tel-celular" name="tel-celular" placeholder="Insira seu celular"
+              oninvalid="this.setCustomValidity('Preencha com seu telefone celular')"
+              oninput='this.setCustomValidity("")' required>
+          </div>
+          <div class="input-box">
+            <label for="Telefone Fixo">Telefone Fixo</label>
+            <input type="text" id="tel-fixo" name="tel-fixo" placeholder="Insira seu telefone fixo"
+              oninvalid="this.setCustomValidity('Preencha com seu telefone fixo')" oninput='this.setCustomValidity("")'
+              required>
+          </div>
+          <div class="input-box">
+            <label for="Endereço">Endereço</label>
+            <input type="text" id="endereço" name="endereço" placeholder="Insira seu endereço"
+              oninvalid="this.setCustomValidity('Preencha com seu endereço completo')"
+              oninput='this.setCustomValidity("")' required>
+          </div>
+          <div class="input-box">
+            <label for="login">Login</label>
+            <input type="login" id="login" name="login" placeholder="Crie seu login"
+              oninvalid="this.setCustomValidity('Preencha com o login')" oninput='this.setCustomValidity("")' required>
+          </div>
+          <div class="input-box">
+            <label for="senha">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Crie sua senha"
+              oninvalid="this.setCustomValidity('Preencha com a senha')" oninput='this.setCustomValidity("")' required>
+          </div>
+          <div class="select-box">
+            <label for="sexo">Sexo</label>
+            <select name="sexo" id="sexo" required>
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+              <option value="outro">Outro</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="submit-button">
+          <button type="submit">Criar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

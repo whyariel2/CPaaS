@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/login.css">
+  <title>Login CPaaS</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- login form -->
+    <div class="login-form">
+      <!-- titulo login -->
+      <div class="title">Entre com seu login</div>
+      <form action="#">
+        <!-- área login -->
+        <div class="input-box">
+          <i class='fa fa-user'></i>
+          <input type="text" placeholder="Insira seu login" oninvalid="this.setCustomValidity('Preencha com seu login')"
+            oninput='this.setCustomValidity("")' autocomplete="off" required>
+        </div>
+
+        <!-- área senha -->
+        <div class="input-box">
+          <i class='fa fa-lock'></i>
+          <input type="password" placeholder="Insira sua senha"
+            oninvalid="this.setCustomValidity('Preencha com sua senha')" oninput='this.setCustomValidity("")'
+            autocomplete="off" required>
+        </div>
+        <!-- "botão" entrar -->
+        <div class="input-box">
+          <input type="submit" value="Entrar">
+        </div>
+        <!-- área registre-se -->
+        <div class="signup-text">
+          Não tem uma conta? <a href="../html/register.html">Registre-se</a>
+        </div>
+      </form>
+    </div>
+    <!-- end login form -->
+    <!-- login img -->
+    <div class="login-img">
+      <img src="../img/logo.svg" width="100%">
+    </div>
+    <!-- end login img -->
+  </div>
+</body>
+
+</html>

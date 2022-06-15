@@ -1,7 +1,0 @@
-/* === MIN WIDTH === */
-@media (min-width: 992px) {
-  #header .nav-link {
-    margin-left: 45px;
-    margin-right: 45px;
-  }
-}

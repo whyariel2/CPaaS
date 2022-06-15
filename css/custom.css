@@ -62,7 +62,7 @@ html {
 
 #services a.service {
   display: block;
-  min-height: 324px;
+  min-height: 250px;
   background: var(--main-white);
   border-radius: 40px;
   text-align: center;
@@ -77,7 +77,7 @@ html {
   transform: scale(1.05);
 }
 
-#services h5 {
+#services h6 {
   color: var(--main-black);
   font-weight: var(--font-semibold);
   max-height: 48px;
@@ -85,7 +85,7 @@ html {
 
 #services p {
   color: var(--grey-medium);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
 }
 
 /* === PARCEIROS === */
