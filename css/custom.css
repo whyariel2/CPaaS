@@ -1,6 +1,7 @@
 /* === Fonts === */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
+/* === GERAIS === */
 body,
 html {
   font-family: var(--body-font-family);
@@ -35,16 +36,16 @@ html {
 /* === INTRODUÇÃO === */
 
 /* Ajuste no posicionamento do container */
-#first__part .container-fluid {
+#main .container-fluid {
   padding-right: calc(var(--bs-gutter-x) * 1.5);
   padding-left: calc(var(--bs-gutter-x) * 1.5);
 }
 
-#first__part h6 {
+#main h6 {
   font-weight: var(--font-extralight);
 }
 
-#first__part p {
+#main p {
   font-size: 1rem;
   font-weight: var(--font-extralight);
 }
