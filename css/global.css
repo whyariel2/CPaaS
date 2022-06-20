@@ -1,11 +1,43 @@
-.title {
+.main-title {
   color: var(--blue-main);
   font-weight: var(--font-semibold);
 }
 
+.title {
+  color: var(--blue-main);
+  font-weight: var(--font-semibold);
+  font-size: 2rem;
+  margin: 0 0 4rem 0;
+}
+
+.title::after {
+  content: "";
+  border-bottom: 2px solid var(--blue-main);
+  width: 15%;
+  position: absolute;
+  padding-top: 3rem;
+  left: 42.5%;
+}
+
 .sub-title {
   color: var(--main-black);
-  margin-bottom: 100px;
+  font-weight: var(--font-semibold);
+}
+
+.title-white {
+  color: var(--main-white);
+  font-weight: var(--font-semibold);
+  font-size: 2rem;
+  margin: 0 0 4rem 0;
+}
+
+.title-white::after {
+  content: "";
+  border-bottom: 2px solid var(--main-white);
+  width: 15%;
+  position: absolute;
+  padding-top: 3rem;
+  left: 42.5%;
 }
 
 img {
@@ -20,11 +52,6 @@ a {
 
 a:hover {
   color: var(--blue-main);
-}
-
-.title-white {
-  color: var(--main-white);
-  font-weight: var(--font-semibold);
 }
 
 .button {

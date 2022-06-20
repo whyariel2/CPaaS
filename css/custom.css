@@ -43,6 +43,7 @@ html {
 
 #main h6 {
   font-weight: var(--font-extralight);
+  margin-bottom: 100px;
 }
 
 #main p {
@@ -117,6 +118,13 @@ html {
 }
 
 /* === MAIS INFORMAÇÕES === */
+#info .title::after {
+  width: 25%;
+  position: absolute;
+  padding-top: 3rem;
+  left: 5%;
+}
+
 #info span {
   font-size: 1.5rem;
 }
@@ -146,4 +154,33 @@ html {
 #examples .line {
   min-width: 100%;
   min-height: 100%;
+}
+
+/* === VANTAGENS === */
+#vantages {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+#vantages .vantage-box {
+  margin-bottom: 50px;
+}
+
+#vantages img {
+  max-height: 4rem;
+}
+
+#vantages p {
+  font-size: 1rem;
+}
+
+.vantage-box img,
+.vantage-box h4 {
+  transition: 0.5s;
+}
+
+.vantage-box:hover > img,
+.vantage-box:hover > h4 {
+  color: var(--blue-main);
 }
