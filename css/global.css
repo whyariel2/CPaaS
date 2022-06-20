@@ -64,16 +64,12 @@ a:hover {
   background: linear-gradient(180deg, #39dbff 0%, #3db3e5 100%, #3db3e5 100%);
   box-shadow: 0px 4px 8px -2px rgba(0, 0, 0, 0.05);
   border-radius: 50px;
-  border: 3px solid transparent;
   transition: 0.5s;
 }
 
 /* Mudança de cor do texto ao passar mouse */
 .button:hover {
   color: var(--grey-light);
-  background-color: transparent;
-  border: 3px solid;
-  border-color: var(--blue-main);
 }
 
 /* Cor do Span */

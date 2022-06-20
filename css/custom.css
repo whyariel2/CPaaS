@@ -177,7 +177,7 @@ html {
 
 .vantage-box img,
 .vantage-box h4 {
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .vantage-box:hover > img,
