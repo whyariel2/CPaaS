@@ -236,9 +236,42 @@ html {
   color: #65daf9;
 }
 
+/* === COMPANY === */
+#company .container {
+  padding-bottom: 0;
+  text-align: center;
+}
+
+#company .content-box {
+  border-bottom: 1px solid var(--blue-main);
+  padding-bottom: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+#company .content-box p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+#company .content-box i {
+  color: var(--blue-main);
+  border: 1px solid var(--blue-main);
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+#company h5 {
+  color: var(--main-black);
+  font-weight: var(--font-semibold);
+}
+
 /* === FOOTER === */
 #footer .container {
-  padding-top: 2rem;
+  padding-top: 0;
   padding-bottom: 0;
 }
 
@@ -256,19 +289,18 @@ html {
   margin-bottom: 10px;
 }
 
-#footer .box {
-  border-top: 1px solid var(--main-black);
-  padding-top: 40px;
-}
-
 #footer .box-start {
   align-content: start;
 }
 
-#footer .box-end {
+#footer .box-center {
   text-align: center;
   align-self: end;
-  padding-top: 150px;
+  padding-top: 110px;
+}
+
+#footer .box-end h4 {
+  padding-right: 0.7rem;
 }
 
 #footer .box-end p {
