@@ -18,453 +18,510 @@
 <body>
 
   <!-- === Header da Página === -->
-  <div id="header">
-    <div class="container">
+  <header>
+    <div id="header">
+      <div class="container-fluid">
 
-      <!-- Tamanho da Navbar para o Collapse -->
-      <nav class="navbar navbar-expand-lg justify-content-between">
+        <!-- Tamanho da Navbar para o Collapse -->
+        <nav class="navbar navbar-expand-lg justify-content-between">
 
-        <!-- Icon Modavo -->
-        <a class="navbar-brand" href="/">
-          <img src="/img/logo-dark.svg" alt="Logo Modavo" class="img-fluid" />
-        </a>
+          <!-- Icon Modavo -->
+          <a class="navbar-brand" href="/">
+            <img src="/img/logo-dark.svg" alt="Logo Modavo" class="img-fluid" />
+          </a>
 
-        <!-- === Button quando houver o Collapse === -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <!-- === Button quando houver o Collapse === -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <!--=== Mudança para Menu Hamburguer ===-->
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <!--=== Mudança para Menu Hamburguer ===-->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 
-          <!-- === Menu === -->
-          <ul class="navbar-nav">
+            <!-- === Menu === -->
+            <ul class="navbar-nav">
 
-            <!-- Drop Down Menu -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Serviços
-              </a>
-              <ul class="dropdown-menu" aria-labelledby=navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="./serv1.html">2FA</a></li>
-                <li><a class="dropdown-item" href="./serv2.html">Número Máscara</a></li>
-                <li><a class="dropdown-item" href="./serv3.html">Google Verified Calls</a></li>
-                <li><a class="dropdown-item" href="./serv4.html">SMS Programável</a></li>
-              </ul>
-            </li>
+              <!-- Drop Down Menu -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Serviços
+                </a>
+                <ul class="dropdown-menu" aria-labelledby=navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./serv1.html">2FA</a></li>
+                  <li><a class="dropdown-item" href="./serv2.html">Número Máscara</a></li>
+                  <li><a class="dropdown-item" href="./serv3.html">Google Verified Calls</a></li>
+                  <li><a class="dropdown-item" href="./serv4.html">SMS Programável</a></li>
+                </ul>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.telecall.com">Telecall</a>
-            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.telecall.com" target="_blank">Telecall</a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
-            </li>
-          </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+            </ul>
 
-        </div>
-
-        <!-- === Button === -->
-        <div class="collapse navbar-collapse div__button justify-content-end" id="navbarNav">
-          <a href="/html/login.html" class="btn button" role="button">ENTRAR</a>
-        </div>
-
-      </nav>
-    </div>
-  </div>
-
-  <!-- === INTRODUÇÃO === -->
-  <div id="main">
-    <div class="container-fluid mt-5">
-      <div class="row">
-        <div class="col-md-7 align-self-center text-center">
-
-          <h1 class="main-title mb-0">Communications Plataform as a Service</h1>
-
-          <h6 class="sub-title justify-content-center fst-italic">Plataforma de Comunicação como Serviço</h6>
-
-          <p class="mb-5">O CPaaS, com sua <span class="text__blue-bold">escalabilidade, flexibilidade,
-              autenticação</span> e
-            <span class="text__blue-bold">segurança</span>
-            aprimoradas, está <span class="text__blue-bold">revolucionando</span> o modo como as empresas habilitadas
-            em nuvem implementam <span class="text__blue-bold">comunicações de voz, SMS e vídeo.</span>
-          </p>
+          </div>
 
           <!-- === Button === -->
-          <a class="button btn" role="button" href="/login">COMECE AGORA</a>
-        </div>
+          <div class="collapse navbar-collapse div__button justify-content-end" id="navbarNav">
+            <a href="/html/login.html" class="btn button" role="button">ENTRAR</a>
+          </div>
 
-        <!-- IMAGE -->
-        <div class="col-md-5 align-self-center text-center">
-          <img src="/img/online-world-animate.svg" class="d-block w-100" alt="Online illustrations by Storyset">
-        </div>
+        </nav>
       </div>
     </div>
-  </div>
+  </header>
 
-  <!-- === Breakpoint === -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
-    <path fill="#3DB3E5" fill-opacity="1" d="M0,256L0,60L1440,60L1440,220L0,220L0,220Z"></path>
-  </svg>
+  <!-- === Corpo da Página === -->
+  <main>
+    <!-- === INTRODUÇÃO === -->
+    <div id="main">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-7 align-self-center text-center">
 
-  <!-- === SERVIÇOS === -->
-  <div id="services" class="">
-    <div class="container align-self-center mb-3">
-      <h2 class="title-white text-center">Nossos Serviços</h2>
+            <h1 class="main-title mb-0">Communications Plataform as a Service</h1>
 
-      <!-- === Grid com os serviços === -->
-      <div class="row">
+            <h6 class="sub-title justify-content-center fst-italic">Plataforma de Comunicação como Serviço</h6>
 
-        <!-- === 2FA === -->
-        <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
-          <a href="./serv1.html" class="service">
-            <div class="img-container mb-3">
-              <img src="../img/cadeado-ico.svg" alt="">
-            </div>
-            <h6 class="align-self-center">2FA</h6>
-            <p class="mb-0">É um procedimento de segurança que garante que serão nessários 2 fatores únicos para
-              liberação de uma ação.</p>
-          </a>
-        </div>
+            <p class="mb-5">O CPaaS, com sua <span class="text__blue-bold">escalabilidade, flexibilidade,
+                autenticação</span> e
+              <span class="text__blue-bold">segurança</span>
+              aprimoradas, está <span class="text__blue-bold">revolucionando</span> o modo como as empresas habilitadas
+              em nuvem implementam <span class="text__blue-bold">comunicações de voz, SMS e vídeo.</span>
+            </p>
 
-        <!-- === Número Máscara === -->
-        <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
-          <a href="./serv1.html" class="service">
-            <div class="img-container mb-3">
-              <img src="../img/phone-ico.svg" alt="">
-            </div>
-            <h6>Número Máscara</h6>
-            <p class="mb-0">Garanta aos seus clientes a capacidade de fazer chamadas e enviar mensagens sem expor seus
-              números de telefone pessoais.</p>
-          </a>
-        </div>
+            <!-- === Button === -->
+            <a class="button btn" role="button" href="/login">COMECE AGORA</a>
+          </div>
 
-        <!-- === Google Verified Calls === -->
-        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-          <a href="./serv1.html" class="service">
-            <div class="img-container mb-3">
-              <img src="../img/check-ico.svg" alt="">
-            </div>
-            <h6>Google Verified Calls</h6>
-            <p class="mb-0">Exclusivo para telefones Android, permite que empresas exibam para o cliente na hora da
-              chamada sua marca, logotipo e até mesmo o motivo da chamada.</p>
-          </a>
-        </div>
-
-        <!-- === SMS Programável === -->
-        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-          <a href="./serv1.html" class="service">
-            <div class="img-container mb-3">
-              <img src="../img/message-ico.svg" alt="">
-            </div>
-            <h6>SMS Programável</h6>
-            <p class="mb-0">Com essa ferramenta você envia mensagens de SMS com as informações que o seu cliente
-              precisa.</p>
-          </a>
+          <!-- IMAGE -->
+          <div class="col-md-5 align-self-center text-center mb-5">
+            <img src="/img/online-world-animate.svg" class="d-block w-100" alt="Online illustrations by Storyset">
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- === Parceiros === -->
-    <div id="parceiros">
+    <!-- === SERVIÇOS === -->
+    <div id="services">
+      <div class=" container align-self-center">
+        <h2 class="title-white text-center">Nossos Serviços</h2>
 
+        <!-- === Grid com os serviços === -->
+        <div class="row">
+
+          <!-- === 2FA === -->
+          <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <a href="./serv1.html" class="service">
+              <div class="img-container mb-3">
+                <img src="../img/cadeado-ico.svg" alt="">
+              </div>
+              <h6 class="align-self-center">2FA</h6>
+              <p class="mb-0">É um procedimento de segurança que garante que serão nessários 2 fatores únicos para
+                liberação de uma ação.</p>
+            </a>
+          </div>
+
+          <!-- === Número Máscara === -->
+          <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <a href="./serv1.html" class="service">
+              <div class="img-container mb-3">
+                <img src="../img/phone-ico.svg" alt="">
+              </div>
+              <h6>Número Máscara</h6>
+              <p class="mb-0">Garanta aos seus clientes a capacidade de fazer chamadas e enviar mensagens sem expor seus
+                números de telefone pessoais.</p>
+            </a>
+          </div>
+
+          <!-- === Google Verified Calls === -->
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-1">
+            <a href="./serv1.html" class="service">
+              <div class="img-container mb-3">
+                <img src="../img/check-ico.svg" alt="">
+              </div>
+              <h6>Google Verified Calls</h6>
+              <p class="mb-0">Exclusivo para telefones Android, permite que empresas exibam para o cliente na hora da
+                chamada sua marca, logotipo e até mesmo o motivo da chamada.</p>
+            </a>
+          </div>
+
+          <!-- === SMS Programável === -->
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-1">
+            <a href="./serv1.html" class="service">
+              <div class="img-container mb-3">
+                <img src="../img/message-ico.svg" alt="">
+              </div>
+              <h6>SMS Programável</h6>
+              <p class="mb-0">Com essa ferramenta você envia mensagens de SMS com as informações que o seu cliente
+                precisa.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- === Parceiros === -->
+      <div id="parceiros">
+
+        <div class="container">
+          <div class="row">
+
+            <!-- === Icones === -->
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+              <a href="" class="link-parceiros">
+                <img class="img-fluid" src="../img/amazon-ar21.svg" alt="">
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-4">
+              <a href="" class="link-parceiros">
+                <img class="img-fluid" src="../img/facebook-logo.svg" alt="">
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+              <a href="" class="link-parceiros">
+                <img class="img-fluid" src="../img/bradesco_logo_2018.svg" alt="">
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+              <a href="" class="link-parceiros">
+                <img class="img-fluid" src="../img/booking_logo.svg" alt="">
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+              <a href="" class="link-parceiros">
+                <img class="img-fluid" src="../img/instagram_logo.svg" alt="">
+              </a>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+              <a href="" class="link-parceiros">
+                <img class="img-fluid" src="../img/icons8-netflix.svg">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- === Waves === -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
+      <path fill="#388EFC" fill-opacity="1"
+        d="M0,64L34.3,64C68.6,64,137,64,206,90.7C274.3,117,343,171,411,170.7C480,171,549,117,617,117.3C685.7,117,754,171,823,192C891.4,213,960,203,1029,181.3C1097.1,160,1166,128,1234,101.3C1302.9,75,1371,53,1406,42.7L1440,32L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
+      </path>
+    </svg>
+
+    <!-- === Mais Info === -->
+    <div id="info">
+      <div class="container">
+        <h1 class="title mb-5">CPaas e a Transformação digital</h1>
+
+        <div class="row justify-content-between">
+
+          <div class="col-lg-6 align-self-center">
+            <p>Expectativa de crescimento estimado de <span>$ 8,2 bilhões</span> em 2021.</p>
+
+            <p> <span>85%</span> dos profissionais se conectam de maneira diferente com colegas e clientes do que faziam
+              há apenas 5 anos.</p>
+
+            <p>As receitas de CPaaS estão crescendo mais de <span>40%</span> ao ano.</p>
+
+            <p><span>CPaaS</span> já ultrapassou o mercado de <span>UCaaS</span> (Unified Communication as a Service).
+            </p>
+
+            <p>Marcas que estão em <span>múltiplos canais</span> melhoram a experiência do usuário e aumentam seus
+              resultados.</p>
+
+          </div>
+
+          <div class="col-lg-5 col-md-9 align-self-center text-center">
+            <img src="../img/modavo-world.svg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- === HOW WORKS === -->
+    <div id="examples">
+      <div class="container">
+        <h2 class="title-white mb-5 text-center">Como funciona?</h2>
+
+        <div class="row justify-content-center">
+
+          <!-- === FIRST COLUMN === -->
+          <div class="col-lg-9 d-inline-flex justify-content-between mt-5">
+
+            <!-- === FIRST COLUMN EXAMPLE === -->
+            <div class="col-lg-5 d-inline-flex text-center mb-5">
+
+              <!-- === FIRST COLUMN DESCRIPTION === -->
+              <div class="col-lg-5">
+                <p>Cliente fez um agendamento no site</p>
+
+                <div class="img-container">
+                  <img src="../img/calendar-icon.svg" alt="">
+                </div>
+
+                <!-- === // FIRST COLUMN DESCRIPTION === -->
+              </div>
+
+              <!-- === ARROW === -->
+              <div class="col-md-2 align-self-center text-center">
+                <img src="../img/arrow.svg" alt="" class="img-fluid">
+              </div>
+
+              <!-- === SECOND COLUMN DESCRIPTION === -->
+              <div class="col-lg-5">
+                <p>Enviado e-mail de confirmação</p>
+                <div class="img-container">
+                  <img src="../img/mail-check-icon.svg" alt="">
+                </div>
+                <!-- === // SECOND COLUMN DESCRIPTION === -->
+              </div>
+              <!-- === // FIRST COLUMN EXEMPLE === -->
+            </div>
+
+
+            <!-- === SECOND COLUMN EXAMPLE === -->
+            <div class="col-lg-5 d-inline-flex text-center">
+
+              <!-- === FIRST COLUMN DESCRIPTION === -->
+              <div class="col-lg-5">
+                <p>Cliente acessa sua conta</p>
+
+                <div class="img-container">
+                  <img src="../img/computer-icon.svg" alt="">
+                </div>
+
+                <!-- === // FIRST COLUMN DESCRIPTION === -->
+              </div>
+
+              <!-- === ARROW === -->
+              <div class="col-md-2 align-self-center text-center">
+                <img src="../img/arrow.svg" alt="" class="img-fluid">
+              </div>
+
+              <!-- === SECOND COLUMN DESCRIPTION === -->
+              <div class="col-lg-5">
+                <p>Código PIN é enviada via SMS</p>
+                <div class="img-container">
+                  <img src="../img/phone-icon.svg" alt="">
+                </div>
+                <!-- === // SECOND COLUMN DESCRIPTION === -->
+              </div>
+              <!-- === // SECOND COLUMN EXEMPLE === -->
+            </div>
+            <!-- === // FIRST COLUMN === -->
+          </div>
+
+          <div class="col-lg-10 align-self-center">
+            <img src="../img/line.svg" alt="" class="img-fluid line">
+          </div>
+
+          <!-- === SECOND COLUMN === -->
+          <div class="col-lg-9 d-inline-flex justify-content-between">
+
+            <!-- === FIRST COLUMN EXAMPLE === -->
+            <div class="col-lg-5 d-inline-flex text-center mt-5">
+
+              <!-- === FIRST COLUMN DESCRIPTION === -->
+              <div class="col-lg-5">
+                <p>Data de instalação se aproxima</p>
+
+                <div class="img-container">
+                  <img src="../img/calendar-dark-icon.svg" alt="">
+                </div>
+
+                <!-- === // FIRST COLUMN DESCRIPTION === -->
+              </div>
+
+              <!-- === ARROW === -->
+              <div class="col-md-2 align-self-center text-center">
+                <img src="../img/arrow.svg" alt="" class="img-fluid">
+              </div>
+
+              <!-- === SECOND COLUMN DESCRIPTION === -->
+              <div class="col-lg-5">
+                <p>Mensagem de voz e SMS são enviadas pro telefone do cliente</p>
+                <div class="img-container">
+                  <img src="../img/phone-mail-icon.svg" alt="">
+                </div>
+                <!-- === // SECOND COLUMN DESCRIPTION === -->
+              </div>
+              <!-- === // FIRST COLUMN EXEMPLE === -->
+            </div>
+
+
+            <!-- === SECOND COLUMN EXAMPLE === -->
+            <div class="col-lg-5 d-inline-flex text-center mt-5">
+
+              <!-- === FIRST COLUMN DESCRIPTION === -->
+              <div class="col-lg-5 mb-5">
+                <p>Atualização no envio de uma compra</p>
+
+                <div class="img-container">
+                  <img src="../img/list-icon.svg" alt="">
+                </div>
+
+                <!-- === // FIRST COLUMN DESCRIPTION === -->
+              </div>
+
+              <!-- === ARROW === -->
+              <div class="col-md-2 align-self-center text-center">
+                <img src="../img/arrow.svg" alt="" class="img-fluid">
+              </div>
+
+              <!-- === SECOND COLUMN DESCRIPTION === -->
+              <div class="col-lg-5 mb-5">
+                <p>Atualização enviada pro cliente via e-mail e SMS</p>
+                <div class="img-container">
+                  <img src="../img/pc-and-phone-icon.svg" alt="">
+                </div>
+                <!-- === // SECOND COLUMN DESCRIPTION === -->
+              </div>
+              <!-- === // SECOND COLUMN EXEMPLE === -->
+            </div>
+            <!-- === // SECOND COLUMN === -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- === Breakpoint === -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#388EFC" fill-opacity="1" d="M0,64L720,288L1440,32L1440,0L720,0L0,0Z"></path>
+    </svg>
+
+    <!-- === VANTAGES === -->
+    <div id="vantages">
+      <div class="container">
+        <div class="row text-center">
+
+          <div class="col-12">
+            <h2 class="title text-center">Vantagens Telecall</h2>
+          </div>
+
+          <div class="col-md vantage-box">
+            <img src="../img/medal.svg" alt="Medalha" class="img-fluid mb-3">
+            <h4 class="sub-title mb-3">Confiança</h4>
+            <p>Empresa que já conhecem e confiam</p>
+          </div>
+
+          <div class="col-md vantage-box">
+            <img src="../img/garantia-rede.svg" alt="Foguete ao redor da Terra" class="img-fluid mb-3">
+            <h4 class="sub-title mb-3">Garantia de Rede</h4>
+            <p>Rede própria de alta capacidade e controle total de ponta-a-ponta</p>
+          </div>
+
+          <div class="col-md vantage-box">
+            <img src="../img/agilidade.svg" alt="Agilidade" class="img-fluid mb-3">
+            <h4 class="sub-title mb-3">Agilidade</h4>
+            <p>Aplicativos de rápida implementação</p>
+          </div>
+
+          <div class="col-md vantage-box">
+            <img src="../img/suporte.svg" alt="Ferramenta" class="img-fluid mb-3">
+            <h4 class="sub-title mb-3">Suporte ao Cliente</h4>
+            <p>Representantes locais de vendas e suporte</p>
+          </div>
+
+          <div class="col-md vantage-box">
+            <img src="../img/preco.svg" alt="Mão com moedas" class="img-fluid mb-3">
+            <h4 class="sub-title mb-3">Preço</h4>
+            <p>Melhor custo benefício para um conjunto completo de recursos e serviços</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- === NEWSLETTER === -->
+    <div id="news">
+      <div class="container">
+        <div class="col-md-12">
+          <h3 class="title-white text-center">Fique por dentro das novidades</h3>
+        </div>
+        <p class="mb-5">Assine nossa lista de e-mails e receba novidades em tempo real</p>
+        <form action="">
+          <input type="email" name="email" id="email-input" class="form-control" placeholder="Seu melhor e-mail">
+          <input type="submit" value="Inscrever-se" id="news-btn">
+        </form>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- === Rodapé da Página === -->
+  <footer>
+    <div id="footer">
       <div class="container">
         <div class="row">
 
-          <!-- === Icones === -->
-          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-            <a href="" class="link-parceiros">
-              <img class="img-fluid" src="../img/amazon-ar21.svg" alt="">
-            </a>
+          <!-- === CONTATO === -->
+          <div class="col-md-4 box box-start">
+
+            <h4 class="mb-3">Entre em contato</h4>
+            <!-- === E-MAIL === -->
+            <div class="col-itens">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:comercial@telecall.com">comercial@tecall.com</a>
+
+            </div>
+
+            <!-- === TELEFONE === -->
+            <div class="col-itens">
+              <i class="fa-solid fa-phone"></i>
+              <span>(21) 3030-1010</span>
+            </div>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-sm-4">
-            <a href="" class="link-parceiros">
-              <img class="img-fluid" src="../img/facebook-logo.svg" alt="">
-            </a>
+          <!-- === COPYRIGHT === -->
+          <div class="col-md-4 box box-end">
+            <img class="img-fluid" src="https://www.telecall.com/media/images/telecall-logo.svg?v=2"
+              alt="Logo Telecall">
+            <p>Copyright &copy; 2022.</p>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-            <a href="" class="link-parceiros">
-              <img class="img-fluid" src="../img/bradesco_logo_2018.svg" alt="">
-            </a>
-          </div>
+          <!-- === SOCIAL === -->
+          <div class="col-md-4 box box-start">
+            <h4 class="mb-3 text-end">Nos siga</h4>
 
-          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-            <a href="" class="link-parceiros">
-              <img class="img-fluid" src="../img/booking_logo.svg" alt="">
-            </a>
-          </div>
+            <div class="d-flex social">
+              <!-- === FACEBOOK === -->
+              <div class="col-itens">
+                <a href="https://www.facebook.com/TelecallBr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              </div>
 
-          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-            <a href="" class="link-parceiros">
-              <img class="img-fluid" src="../img/instagram_logo.svg" alt="">
-            </a>
-          </div>
+              <!-- === INSTAGRAM === -->
+              <div class="col-itens">
+                <a href="https://www.instagram.com/telecallbr/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+              </div>
 
-          <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-            <a href="" class="link-parceiros">
-              <img class="img-fluid" src="../img/icons8-netflix.svg">
-            </a>
-          </div>
+              <!-- === LINKEDIN === -->
+              <div class="col-itens">
+                <a href="https://www.linkedin.com/company/telecall/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+              </div>
 
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <!-- === Waves === -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
-    <path fill="#388EFC" fill-opacity="1"
-      d="M0,64L34.3,64C68.6,64,137,64,206,90.7C274.3,117,343,171,411,170.7C480,171,549,117,617,117.3C685.7,117,754,171,823,192C891.4,213,960,203,1029,181.3C1097.1,160,1166,128,1234,101.3C1302.9,75,1371,53,1406,42.7L1440,32L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
-    </path>
-  </svg>
-
-  <!-- === Mais Info === -->
-  <div id="info" class="block">
-    <div class="container">
-      <h1 class="title mt-5 mb-5">CPaas e a Transformação digital</h1>
-
-      <div class="row justify-content-between">
-
-        <div class="col-lg-6 align-self-center">
-          <p>Expectativa de crescimento estimado de <span>$ 8,2 bilhões</span> em 2021.</p>
-
-          <p> <span>85%</span> dos profissionais se conectam de maneira diferente com colegas e clientes do que faziam
-            há apenas 5 anos.</p>
-
-          <p>As receitas de CPaaS estão crescendo mais de <span>40%</span> ao ano.</p>
-
-          <p><span>CPaaS</span> já ultrapassou o mercado de <span>UCaaS</span> (Unified Communication as a Service).</p>
-
-          <p>Marcas que estão em <span>múltiplos canais</span> melhoram a experiência do usuário e aumentam seus
-            resultados.</p>
-
-        </div>
-
-        <div class="col-lg-5 col-md-9 align-self-center text-center">
-          <img src="../img/modavo-world.svg" alt="" class="img-fluid">
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- === Breakpoint === -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
-    <path fill="#3DB3E5" fill-opacity="1" d="M0,256L0,60L1440,60L1440,220L0,220L0,220Z"></path>
-  </svg>
-
-  <!-- === HOW WORKS === -->
-  <div id="examples">
-    <div class="container">
-      <h2 class="title-white mb-5 text-center">Como funciona?</h2>
-
-      <div class="row justify-content-center">
-
-        <!-- === FIRST COLUMN === -->
-        <div class="col-lg-9 d-inline-flex justify-content-between mt-5">
-
-          <!-- === FIRST COLUMN EXAMPLE === -->
-          <div class="col-lg-5 d-inline-flex text-center mb-5">
-
-            <!-- === FIRST COLUMN DESCRIPTION === -->
-            <div class="col-lg-5">
-              <p>Cliente fez um agendamento no site</p>
-
-              <div class="img-container">
-                <img src="../img/calendar-icon.svg" alt="">
-              </div>
-
-              <!-- === // FIRST COLUMN DESCRIPTION === -->
-            </div>
-
-            <!-- === ARROW === -->
-            <div class="col-md-2 align-self-center text-center">
-              <img src="../img/arrow.svg" alt="" class="img-fluid">
-            </div>
-
-            <!-- === SECOND COLUMN DESCRIPTION === -->
-            <div class="col-lg-5">
-              <p>Enviado e-mail de confirmação</p>
-              <div class="img-container">
-                <img src="../img/mail-check-icon.svg" alt="">
-              </div>
-              <!-- === // SECOND COLUMN DESCRIPTION === -->
-            </div>
-            <!-- === // FIRST COLUMN EXEMPLE === -->
-          </div>
-
-
-          <!-- === SECOND COLUMN EXAMPLE === -->
-          <div class="col-lg-5 d-inline-flex text-center mb-5">
-
-            <!-- === FIRST COLUMN DESCRIPTION === -->
-            <div class="col-lg-5">
-              <p>Cliente acessa sua conta</p>
-
-              <div class="img-container">
-                <img src="../img/computer-icon.svg" alt="">
-              </div>
-
-              <!-- === // FIRST COLUMN DESCRIPTION === -->
-            </div>
-
-            <!-- === ARROW === -->
-            <div class="col-md-2 align-self-center text-center">
-              <img src="../img/arrow.svg" alt="" class="img-fluid">
-            </div>
-
-            <!-- === SECOND COLUMN DESCRIPTION === -->
-            <div class="col-lg-5">
-              <p>Código PIN é enviada via SMS</p>
-              <div class="img-container">
-                <img src="../img/phone-icon.svg" alt="">
-              </div>
-              <!-- === // SECOND COLUMN DESCRIPTION === -->
-            </div>
-            <!-- === // SECOND COLUMN EXEMPLE === -->
-          </div>
-          <!-- === // FIRST COLUMN === -->
-        </div>
-
-        <div class="col-lg-10
-         align-self-center">
-          <img src="../img/line.svg" alt="" class="img-fluid line">
-        </div>
-
-        <!-- === SECOND COLUMN === -->
-        <div class="col-lg-9 d-inline-flex justify-content-between">
-
-          <!-- === FIRST COLUMN EXAMPLE === -->
-          <div class="col-lg-5 d-inline-flex text-center mt-5">
-
-            <!-- === FIRST COLUMN DESCRIPTION === -->
-            <div class="col-lg-5">
-              <p>Data de instalação se aproxima</p>
-
-              <div class="img-container">
-                <img src="../img/calendar-dark-icon.svg" alt="">
-              </div>
-
-              <!-- === // FIRST COLUMN DESCRIPTION === -->
-            </div>
-
-            <!-- === ARROW === -->
-            <div class="col-md-2 align-self-center text-center">
-              <img src="../img/arrow.svg" alt="" class="img-fluid">
-            </div>
-
-            <!-- === SECOND COLUMN DESCRIPTION === -->
-            <div class="col-lg-5">
-              <p>Mensagem de voz e SMS são enviadas pro telefone do cliente</p>
-              <div class="img-container">
-                <img src="../img/phone-mail-icon.svg" alt="">
-              </div>
-              <!-- === // SECOND COLUMN DESCRIPTION === -->
-            </div>
-            <!-- === // FIRST COLUMN EXEMPLE === -->
-          </div>
-
-
-          <!-- === SECOND COLUMN EXAMPLE === -->
-          <div class="col-lg-5 d-inline-flex text-center mt-5">
-
-            <!-- === FIRST COLUMN DESCRIPTION === -->
-            <div class="col-lg-5 mb-5">
-              <p>Atualização no envio de uma compra</p>
-
-              <div class="img-container">
-                <img src="../img/list-icon.svg" alt="">
-              </div>
-
-              <!-- === // FIRST COLUMN DESCRIPTION === -->
-            </div>
-
-            <!-- === ARROW === -->
-            <div class="col-md-2 align-self-center text-center">
-              <img src="../img/arrow.svg" alt="" class="img-fluid">
-            </div>
-
-            <!-- === SECOND COLUMN DESCRIPTION === -->
-            <div class="col-lg-5 mb-5">
-              <p>Atualização enviada pro cliente via e-mail e SMS</p>
-              <div class="img-container">
-                <img src="../img/pc-and-phone-icon.svg" alt="">
-              </div>
-              <!-- === // SECOND COLUMN DESCRIPTION === -->
-            </div>
-            <!-- === // SECOND COLUMN EXEMPLE === -->
-          </div>
-          <!-- === // SECOND COLUMN === -->
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- === Breakpoint === -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path fill="#388EFC" fill-opacity="1" d="M0,64L720,288L1440,32L1440,0L720,0L0,0Z"></path>
-  </svg>
-
-  <!-- === VANTAGES === -->
-  <div id="vantages">
-    <div class="container">
-      <div class="row text-center">
-
-        <div class="col-12">
-          <h2 class="title mt-5 text-center">Vantagens Telecall</h2>
-        </div>
-
-        <div class="col-md vantage-box">
-          <img src="../img/medal.svg" alt="Medalha" class="img-fluid mb-3">
-          <h4 class="sub-title mb-3">Confiança</h4>
-          <p>Empresa que já conhecem e confiam</p>
-        </div>
-
-        <div class="col-md vantage-box">
-          <img src="../img/garantia-rede.svg" alt="Foguete ao redor da Terra" class="img-fluid mb-3">
-          <h4 class="sub-title mb-3">Garantia de Rede</h4>
-          <p>Rede própria de alta capacidade e controle total de ponta-a-ponta</p>
-        </div>
-
-        <div class="col-md vantage-box">
-          <img src="../img/agilidade.svg" alt="Agilidade" class="img-fluid mb-3">
-          <h4 class="sub-title mb-3">Agilidade</h4>
-          <p>Aplicativos de rápida implementação</p>
-        </div>
-
-        <div class="col-md vantage-box">
-          <img src="../img/suporte.svg" alt="Ferramenta" class="img-fluid mb-3">
-          <h4 class="sub-title mb-3">Suporte ao Cliente</h4>
-          <p>Representantes locais de vendas e suporte</p>
-        </div>
-
-        <div class="col-md vantage-box">
-          <img src="../img/preco.svg" alt="Mão com moedas" class="img-fluid mb-3">
-          <h4 class="sub-title mb-3">Preço</h4>
-          <p>Melhor custo benefício para um conjunto completo de recursos e serviços</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="news">
-    <div class="container">
-      <div class="col-md-12">
-        <h3 class="title text-center">Fique por dentro das novidades</h3>
-      </div>
-      <p>Assine nossa lista de e-mails e receba novidades em tempo real</p>
-      <form action="">
-        <input type="email" name="email" id="email-input" class="form-control" placeholder="Seu melhor e-mail">
-        <input type="submit" value="Inscrever-se" id="news-btn">
-      </form>
-    </div>
-  </div>
-
+  </footer>
 
 
   <!-- Poppers JS BootStrap Link -->
@@ -479,6 +536,9 @@
 
   <!-- Jquery Link -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Icons Link -->
+  <script src="https://kit.fontawesome.com/21361a57ea.js" crossorigin="anonymous"></script>
 
   <!-- Parallax Link -->
   <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>

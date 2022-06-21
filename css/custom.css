@@ -13,7 +13,7 @@ html {
 #header {
   width: 100%;
   background-color: var(--main-white);
-  transition: background ease-out 0.2s;
+  transition: background ease-out 0.5s;
   box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.1);
 }
 
@@ -65,7 +65,7 @@ html {
   display: block;
   min-height: 250px;
   background: var(--main-white);
-  border-radius: 40px;
+  border-radius: 20px;
   text-align: center;
   padding: 10px 20px;
   color: var(--main-black);
@@ -90,6 +90,9 @@ html {
 }
 
 /* === PARCEIROS === */
+#parceiros .container {
+  padding: 0;
+}
 
 #parceiros a.link-parceiros {
   display: flex;
@@ -129,11 +132,19 @@ html {
   font-size: 1.5rem;
 }
 
+#info p {
+  color: var(--main-black);
+}
+
 /* === EXAMPLES === */
 #examples {
   width: 100%;
   background: linear-gradient(#3db3e5, #388efc);
   background-size: cover;
+}
+
+#exemples .container {
+  padding-bottom: 0;
 }
 
 #examples .row {
@@ -160,7 +171,6 @@ html {
 #vantages {
   text-align: center;
   justify-content: center;
-  margin-bottom: 1.5rem;
 }
 
 #vantages .vantage-box {
@@ -183,4 +193,97 @@ html {
 .vantage-box:hover > img,
 .vantage-box:hover > h4 {
   color: var(--blue-main);
+}
+
+/* === NEWS LETTER === */
+#news {
+  text-align: center;
+  background: #3db3e5;
+}
+
+#news p {
+  font-size: 1.15rem;
+  color: var(--main-white);
+}
+
+#email-input {
+  border-radius: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 2px solid #65daf9;
+  display: inline;
+  box-sizing: border-box;
+  width: 40%;
+  height: 2.5rem;
+}
+
+#news-btn {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 2px solid #65daf9;
+  background-color: #65daf9;
+  text-transform: uppercase;
+  color: var(--main-white);
+  height: 2.5rem;
+  padding: 0 1.8rem;
+  margin-left: -150px;
+  position: absolute;
+  transition: 0.5s;
+}
+
+#news-btn:hover {
+  background-color: var(--main-white);
+  color: #65daf9;
+}
+
+/* === FOOTER === */
+#footer .container {
+  padding-top: 2rem;
+  padding-bottom: 0;
+}
+
+#footer a {
+  color: var(--main-black);
+  font-weight: var(--font-regular);
+}
+
+#footer span {
+  color: var(--main-black);
+  font-weight: var(--font-regular);
+}
+
+#footer .col-itens {
+  margin-bottom: 10px;
+}
+
+#footer .box {
+  border-top: 1px solid var(--main-black);
+  padding-top: 40px;
+}
+
+#footer .box-start {
+  align-content: start;
+}
+
+#footer .box-end {
+  text-align: center;
+  align-self: end;
+  padding-top: 150px;
+}
+
+#footer .box-end p {
+  font-size: 0.8rem;
+}
+
+#footer img {
+  height: 30px;
+}
+
+#footer .social {
+  justify-content: end;
+  font-size: 1.8rem;
+}
+
+#footer .social a {
+  margin: 0 0.5rem;
 }
