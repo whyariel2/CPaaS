@@ -1,7 +1,16 @@
-/* === MIN WIDTH === */
-@media (min-width: 992px) {
-  #header .nav-link {
-    margin-left: 45px;
-    margin-right: 45px;
+/* === TABLET SCREEN === */
+@media (max-width: 768px) {
+  /* === Geral === */
+  .container {
+    padding: 1.25rem 0;
+  }
+
+  /* === MAIN === */
+  #main h1 {
+    font-size: 1.5rem;
+  }
+
+  #main h6 {
+    font-size: 0.75rem;
   }
 }

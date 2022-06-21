@@ -23,8 +23,8 @@ html {
 
 #header .nav-link {
   font-weight: var(--font-regular);
-  padding-left: 0;
-  padding-right: 0;
+  margin-left: 45px;
+  margin-right: 45px;
   border-bottom: solid 2px transparent;
 }
 
