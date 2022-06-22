@@ -1,16 +1,140 @@
+/* === LAPTOP L SCREEN === */
+@media (max-width: 1440px) {
+  /* === More === */
+  #info div .row {
+    justify-content: space-between;
+  }
+}
+
+/* === LAPTOP SCREEN === */
+@media (max-width: 1024px) {
+  /* === Geral === */
+
+  /* === Main === */
+  #main .container-fluid {
+    padding: 1.5rem 36px;
+  }
+
+  /* === Services === */
+  #services a.service {
+    min-height: 245px;
+  }
+
+  /* === More === */
+  #info div .row {
+    justify-content: space-between;
+  }
+}
+
 /* === TABLET SCREEN === */
 @media (max-width: 768px) {
   /* === Geral === */
   .container {
-    padding: 1.25rem 0;
+    padding: 1.5rem 0;
   }
 
   /* === MAIN === */
+  #main .container-fluid {
+    padding: 1.5rem 36px;
+  }
+
   #main h1 {
     font-size: 1.5rem;
   }
 
   #main h6 {
     font-size: 0.75rem;
+  }
+
+  /* === Services === */
+  #services a.service {
+    min-height: 220px;
+  }
+
+  /* === More === */
+  #info div .row {
+    justify-content: center;
+  }
+
+  /* === Vantages === */
+  #vantages p {
+    font-size: 0.75rem;
+  }
+
+  #vantages h4 {
+    font-size: 0.75rem;
+  }
+
+  #vantages .vantage-box {
+    margin-bottom: 0;
+  }
+
+  /* === News === */
+  #news p {
+    font-size: 1rem;
+  }
+
+  #email-input {
+    width: 70%;
+  }
+
+  #news-btn {
+    margin-left: -155px;
+  }
+  /* === Footer === */
+  #footer h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+  }
+
+  #footer a {
+    font-size: 0.8rem;
+  }
+
+  #footer p {
+    font-size: 0.8rem;
+  }
+
+  #footer span {
+    font-size: 0.8rem;
+  }
+
+  #footer .text-end {
+    margin-bottom: 0;
+  }
+
+  #footer .social i {
+    font-size: 1.6rem;
+  }
+}
+
+/* === MOBILE SCREEN === */
+@media (max-width: 425px) {
+  /* === SERVICES === */
+  #services .col-md-6 {
+    width: 50%;
+  }
+
+  #services a.service {
+    min-height: 280px;
+  }
+
+  /* === PARCEIROS === */
+  #parceiros .col-sm-4 {
+    width: 50%;
+  }
+
+  /* === NEWS === */
+  #news p {
+    font-size: 0.75rem;
+  }
+
+  #email-input {
+    width: 85%;
+  }
+
+  /* === FOOTER === */
+  #footer .col-md-4 {
+    width: 33.3%;
   }
 }

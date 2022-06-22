@@ -63,7 +63,7 @@ html {
 
 #services a.service {
   display: block;
-  min-height: 250px;
+  min-height: 215px;
   background: var(--main-white);
   border-radius: 20px;
   text-align: center;

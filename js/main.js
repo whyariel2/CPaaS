@@ -7,4 +7,26 @@ jQuery(document).ready(function ($) {
       $("header").removeClass("sticky-top");
     }
   };
+
+  // SCROLL PARA SESSÕES
+  let navBtn = $(".nav-item");
+
+  let contactSection = $("#footer");
+
+  let scrollTo = "";
+
+  $(navBtn).click(function () {
+    let btnId = $(this).attr("id");
+
+    if (btnId == "contact-menu") {
+      scrollTo = contactSection;
+    }
+
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTo: $(scrollTo).offset.top - 92,
+      },
+      1500
+    );
+  });
 });
