@@ -10,5 +10,8 @@
 /* === Custom Class === */
 @import url(./custom.css);
 
+/* === 2FA Library === */
+@import url(serv1.css);
+
 /* === Responsive Library === */
 @import url(./responsive.css);

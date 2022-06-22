@@ -1,0 +1,53 @@
+/* === Fonts === */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+/* === GERAIS === */
+body,
+html {
+  background-image: var(--main-white);
+  font-family: var(--body-font-family);
+  color: var(--bs-black);
+}
+
+/* === INTRO === */
+#main-serv .container-fluid {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#main-serv h1 {
+  font-size: 4rem;
+  margin-bottom: 1.25rem;
+}
+
+#main-serv h3 {
+  color: var(--grey-normal);
+}
+
+#main-serv .title::after {
+  width: 25%;
+  position: absolute;
+  padding-top: 3rem;
+  left: 52%;
+}
+
+#main-serv li {
+  margin-bottom: 1.25rem;
+}
+
+/* === Info === */
+#info-serv {
+  background: #fafafa;
+}
+
+#info-serv .container {
+  padding-bottom: 2rem;
+}
+
+#info-serv h5 {
+  margin-bottom: 1.5rem;
+}
+
+#info-serv span {
+  font-size: 2.5rem;
+}

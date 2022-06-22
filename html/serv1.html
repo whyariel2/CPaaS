@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Icon da página -->
+  <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
+
+  <!-- Link CSS Home -->
+  <link rel="stylesheet" href="../css/main.css">
+
+  <title>2FA</title>
+</head>
+
+<body>
+
+  <!-- === Header da Página === -->
+  <header>
+    <div id="header">
+      <div class="container-fluid">
+
+        <!-- Tamanho da Navbar para o Collapse -->
+        <nav class="navbar navbar-expand-lg justify-content-between">
+
+          <!-- Icon Modavo -->
+          <a class="navbar-brand" href="/">
+            <img src="/img/logo-dark.svg" alt="Logo Modavo" class="img-fluid" />
+          </a>
+
+          <!-- === Button quando houver o Collapse === -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--=== Mudança para Menu Hamburguer ===-->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+            <!-- === Menu === -->
+            <ul class="navbar-nav">
+
+              <!-- Drop Down Menu -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Serviços
+                </a>
+                <ul class="dropdown-menu" aria-labelledby=navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./serv1.html">2FA</a></li>
+                  <li><a class="dropdown-item" href="./serv2.html">Número Máscara</a></li>
+                  <li><a class="dropdown-item" href="./serv3.html">Google Verified Calls</a></li>
+                  <li><a class="dropdown-item" href="./serv4.html">SMS Programável</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.telecall.com" target="_blank">Telecall</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" id="contact-menu">Contato</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <!-- === Button === -->
+          <div class="collapse navbar-collapse div__button justify-content-end" id="navbarNav">
+            <a href="/html/login.html" class="btn button" role="button">ENTRAR</a>
+          </div>
+
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- === Corpo da Página === -->
+  <main>
+    <div id="main-serv">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="main-title text-center">2FA</H1>
+          </div>
+
+          <div class="col-6">
+            <img src="../img/two-factor-authentication.svg" class="d-block w-100 img-fluid"
+              alt="verificação de 2 passos">
+          </div>
+
+          <div class="col-6">
+            <h2 class="title">Two-Factor Authentication</h2>
+
+            <h3 class="fst-italic">Autenticação de dois fatores</h3>
+
+            <p>O 2FA é um procedimento de segurança que garante que serão necessários 2 fatores únicos para liberação de
+              uma ação. O primeiro fator é a senha que o usuário e o segundo pode ser autenticado via token, via
+              detecção
+              de impressão digital, reconhecimento facial, código enviado via sms, entre outros.</p>
+
+            <div>
+              <h4 class="mb-3">O 2FA permite que você:</h4>
+              <ul>
+                <li>
+                  <span>Envie</span> uma senha via SMS, voz ou e-mail para autenticação do usuário.
+                </li>
+
+                <li>
+                  <span>Adicione</span> uma camada extra de segurança além da senha pessoal.
+                </li>
+
+                <li>
+                  <span>Ofereça</span> maior segurança para usuários.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- === INFO === -->
+
+    <div id="info-serv">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="title">Fortaleça a estratégia de segurança de seu negócio.</h2>
+          </div>
+
+          <div id="second-text" class="col-12">
+            <h5>Um número de telefone de recuperação a uma conta individual pode bloquear até:</h5>
+
+            <p class="cinza">
+              <span class="text-azul span-p p-larger">100%</span> dos <i class="span-p">bots</i> automatizados,
+            </p>
+
+            <p class="cinza">
+              <span class="text-azul span-p p-larger">99%</span> dos ataques de <i>phishing</i> em massa,
+            </p class="cinza">
+
+            <p class="cinza"><span class="text-azul span-p p-larger">66%</span> dos ataques direcionados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- === HOW WORKS === -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="title text-center">Como funciona?</h2>
+        </div>
+
+        <div id="area-1" class="col">
+          <img src="imgs/Computer login-amico.svg" alt="Foto representando o usuário fazendo login">
+          <p class="cinza">Usuário <span class="span-p">acessa seu site o aplicativo</span> e digita a senha cadastrada
+            para
+            entrar em seu perfil ou completar uma transação.</p>
+        </div>
+
+        <div id="area-2" class="col">
+          <img src="imgs/Warning-pana.svg" alt="Foto representando a Telecall pedindo o seu número do celular">
+          <p class="cinza">A Telecall recebe a tentativa de login e solicita que o usuário <span class="span-p">insira
+              seu
+              número de telefone</span> para autorizar o acesso.</p>
+        </div>
+
+        <div id="area-3" class="col">
+          <img src="imgs/Enter OTP-amico (1).svg" alt="Foto representando o usuário inserindo o número do celular">
+          <p class="cinza">Após inserir seu número, a Telecall <span class="span-p">envia para o usuário</span> por SMS,
+            chamada ou e-mail um <span class="span-p">código PIN</span> de uso único.</p>
+          <p class="cinza">Esse código PIN é também conhecido como <span class="span-p">OTP (One Time Password).</span>
+          </p>
+        </div>
+
+        <div id="area-4" class="col">
+          <img src="imgs/Enter OTP-rafiki.svg" alt="Foto representando o usuário inserindo o código">
+          <p class="cinza">O usuário <span class="span-p">insere o código</span> no site ou aplicativo para concluir o
+            processo de verificação.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div id="fourth-text" class="col-12">
+          <h2>Beneficios</h2>
+        </div>
+        <div class="col-12">
+          <ul>
+            <li>Ofereça <span class="span-p">segurança aprimorada</span> para seus clientes.</li>
+
+            <li>Reduza casos de <span class="span-p">fraude e invasões</span> e evite o acesso a dados por invasores.
+            </li>
+
+            <li>Envio de OTP por meio de <span class="span-p">vários canais</span>, incluindo SMS, voz ou e-mail.</li>
+
+            <li>
+              <span class="span-p">Flexibilidade</span> de canais garante que o usuário conseguirá completar a tarefa
+              desejada mesmo quando tiver problema com um deles.Exemplo: Enviar OTP por SMS, em caso de falha, enviar
+              OTP
+              por chamada de voz, em caso de outra falha, enviar por e-mail.
+            </li>
+
+            <li>API simples e de <span class="span-p">rápida implementação.</span>
+            </li>
+
+            <li>
+              <span class="span-p">Plataforma intuitiva</span> que permite visualizar relatórios de uso por dia, mês ou
+              ano
+              e pesquisar usando diversos critérios de filtro
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="container align-self-center justify-content-center">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center">Quem usa?</h2>
+      </div>
+
+      <div id="area-a" class="col">
+        <img src="imgs/Finance-amico.svg" alt="Foto representando o Financeiro">
+
+        <h4>Finanças</h4>
+
+        <ul>
+          <li>Acesso ao portal/app</li>
+          <li>Autenticação para transações bancárias</li>
+          <li>Pagamentos Online (PicPay, PayPal)</li>
+          <li>Digital Wallets (Google Pay, Apple Pay, Samsung Pay)</li>
+        </ul>
+
+      </div>
+
+      <div id="area-b" class="col">
+        <img src="imgs/Medical prescription-amico.svg" alt="Foto representando a saúde">
+
+        <h4>Saúde</h4>
+
+        <ul>
+          <li>Acesso ao portal/app</li>
+          <li>Agendamentos</li>
+          <li>Tokens de autorização</li>
+          <li>Telemedicina</li>
+        </ul>
+
+      </div>
+
+      <div id="area-c" class="col">
+        <img src="imgs/London-bro.svg" alt="Foto representando o Turismo">
+
+        <h4>Turismo</h4>
+
+        <ul>
+          <li>Acesso ao portal/app</li>
+          <li>Gestão de Reservas</li>
+          <li>Acesso ao histórico</li>
+          <li>Salvar dados de pagamentos</li>
+          <li>Recuperação de Senha</li>
+        </ul>
+
+      </div>
+
+      <div id="area-d" class="col">
+        <img src="imgs/Ecommerce checkout laptop-amico.svg" alt="Foto representando o E-commerce/Varejo">
+
+        <h4>Varejo</h4>
+
+        <ul>
+          <li>Acesso ao portal/app</li>
+          <li>Salvar dados de pagamentos</li>
+          <li>Acesso ao histórico</li>
+          <li>Recuperação de Senha</li>
+          <li>Recibo Eletrônico</li>
+        </ul>
+
+      </div>
+
+      <div id="area-e" class="col">
+        <img src="imgs/Standup meeting-rafiki.svg" alt="Foto sobre gorveno">
+
+        <h4>Governo</h4>
+
+        <ul>
+          <li>Acesso ao portal/app</li>
+          <li>Gestão de informações Agendamentos</li>
+          <li>Recuperação de Senha</li>
+        </ul>
+      </div>
+    </div>
+    </main>
+
+    <!-- === Rodapé da Página === -->
+    <footer>
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+
+            <!-- === CONTATO === -->
+            <div class="col-md-4 box box-start">
+
+              <h4 class="md-mb-3">Entre em contato</h4>
+              <!-- === E-MAIL === -->
+              <div class="col-itens">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:comercial@telecall.com">comercial@tecall.com</a>
+
+              </div>
+
+              <!-- === TELEFONE === -->
+              <div class="col-itens">
+                <i class="fa-solid fa-phone"></i>
+                <span>(21) 3030-1010</span>
+              </div>
+            </div>
+
+            <!-- === COPYRIGHT === -->
+            <div class="col-md-4 box box-center">
+              <img class="img-fluid" src="https://www.telecall.com/media/images/telecall-logo.svg?v=2"
+                alt="Logo Telecall">
+              <p>Copyright &copy; 2022.</p>
+            </div>
+
+            <!-- === SOCIAL === -->
+            <div class="col-md-4 box box-end">
+              <h4 class="text-end">Nos siga</h4>
+
+              <div class="d-flex social">
+                <!-- === FACEBOOK === -->
+                <div class="col-itens">
+                  <a href="https://www.facebook.com/TelecallBr" target="_blank"><i
+                      class="fa-brands fa-facebook"></i></a>
+                </div>
+
+                <!-- === INSTAGRAM === -->
+                <div class="col-itens">
+                  <a href="https://www.instagram.com/telecallbr/" target="_blank"><i
+                      class="fa-brands fa-instagram"></i></a>
+                </div>
+
+                <!-- === LINKEDIN === -->
+                <div class="col-itens">
+                  <a href="https://www.linkedin.com/company/telecall/" target="_blank"><i
+                      class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Poppers JS BootStrap Link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"></script>
+
+    <!-- JS BootStrap Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+
+    <!-- Jquery Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Icons Link -->
+    <script src="https://kit.fontawesome.com/21361a57ea.js" crossorigin="anonymous"></script>
+
+    <!-- Parallax Link -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+    <!-- Script JS -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
