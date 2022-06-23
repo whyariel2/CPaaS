@@ -66,9 +66,19 @@ html {
 }
 
 /* === BENEFÍCIOS === */
+#benefits {
+  background: #fafafa;
+}
+
 #benefits .title::after {
   width: 10%;
   position: absolute;
   padding-top: 3rem;
   left: 5%;
+}
+
+/* === QUEM USA === */
+#who-use .col {
+  border-bottom: 1px solid var(--blue-main);
+  padding-bottom: 2.5rem;
 }
