@@ -1,0 +1,45 @@
+/* Font / HTML */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+
+h2 {
+  color: #3db3e5;
+}
+
+/* ID's */
+
+
+/* Class's */
+.p-blue {
+  color: #3db3e5;
+}
+
+.cinza {
+  color: #808080;
+}
+
+.larger {
+  font-size: 20px;
+}
+
+.h1-title {
+  font-size: 50px;
+  color: #3db3e5;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+.h2-title {
+  padding-bottom: 35px;
+}
+
+.container {
+  padding-bottom: 90px;
+}
+
+.lg{
+  font-size: 60px;
+}
