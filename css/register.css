@@ -128,9 +128,8 @@ body {
 .input-box input,
 .select-box select {
   height: 45px;
-  border: none;
+  border: 1px solid #3ea0ca;
   border-radius: 10px;
-  box-shadow: 1px 1px 6px #0000001c;
 }
 
 .input-box input:hover {
@@ -212,4 +211,27 @@ body {
     padding: 3px 7px;
     margin-left: 15px;
   }
+}
+
+/* INPUT ERROR E SUCCESS */
+.input-box.success input,
+.select-box.success label {
+  border: 2px solid #4eca64;
+}
+
+.input-box.error input,
+.select-box.error select {
+  border: 2px solid #db5a5a;
+}
+
+.input-box.error small,
+.select-box.error small {
+  visibility: visible;
+}
+
+.input-box small,
+.select-box small {
+  visibility: hidden;
+  font-size: 0.75rem;
+  color: #db5a5a;
 }
