@@ -64,29 +64,32 @@ body {
 }
 
 .select-box {
-  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 142px;
 }
 
 .submit-button {
   padding-left: 35%;
 }
 
-.login-button button {
+.submit-button button {
+  color: #fff;
+}
+
+.login-button a {
   border: none;
   background-color: var(--defaut-color);
   padding: 0.4rem 1rem;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.login-button button:hover {
-  background-color: var(--default-color2);
-}
-
-.login-button button a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 300;
   color: #fff;
+}
+
+.login-button a:hover {
+  background-color: var(--default-color2);
 }
 
 .form-header h1::after {
@@ -111,11 +114,15 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 1.1rem;
+  max-width: 230px;
 }
 
 .input-box ::placeholder {
   font-weight: 550;
   font-size: 85%;
+}
+.input-box input {
+  padding-left: 1rem;
 }
 
 .input-box input,
@@ -165,6 +172,10 @@ body {
   color: #fff;
 }
 
+.already {
+  padding-right: 5px;
+}
+
 @media screen and (max-width: 1330px) {
   .form-image {
     display: none;
@@ -192,27 +203,13 @@ body {
     max-height: 10rem;
     padding-right: 5rem;
   }
-}
 
-/* INPUT ERROR E SUCCESS */
-.input-box.success input,
-.select-box.success label {
-  border: 2px solid #4eca64;
-}
+  .already {
+    display: none;
+  }
 
-.input-box.error input,
-.select-box.error select {
-  border: 2px solid #db5a5a;
-}
-
-.input-box.error small,
-.select-box.error small {
-  visibility: visible;
-}
-
-.input-box small,
-.select-box small {
-  visibility: hidden;
-  font-size: 0.75rem;
-  color: #db5a5a;
+  .login-button a {
+    padding: 3px 7px;
+    margin-left: 15px;
+  }
 }
