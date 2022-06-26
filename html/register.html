@@ -38,34 +38,48 @@
 
             <label for="Nome">Nome</label>
             <input type="text" id="name" name="name" placeholder="Insira seu nome completo" minlength="15"
-              maxlength="60" required>
+              maxlength="60">
+
+            <small>Error message</small>
+
           </div>
 
           <!--area nome materno-->
           <div class="input-box">
             <label for="Nome Materno">Nome Materno</label>
-            <input type="text" id="nome-materno" name="nome-materno" placeholder="Insira seu nome materno" required>
+            <input type="text" id="nome-materno" name="nome-materno" placeholder="Insira seu nome materno">
+
+            <small>Error message</small>
+
           </div>
 
           <!--area cpf-->
           <div class="input-box">
             <label for="CPF">CPF</label>
             <input type="text" id="cpf" name="cpf" placeholder="Insira seu CPF" maxlength="11" pattern="[0-9]{11}"
-              onblur="formataCPF(this)" required>
+              onblur="formataCPF(this)">
+
+            <small>Error message</small>
           </div>
 
           <!--area celular-->
           <div class="input-box">
             <label for="Telefone Celular">Telefone Celular</label>
             <input type="text" id="tel-celular" name="tel-celular" placeholder="Insira seu celular" maxlength="13"
-              pattern="[0-9]{13}" onblur="formataphone(this)" required>
+              pattern="[0-9]{13}" onblur="formataphone(this)">
+
+            <small>Error message</small>
+
           </div>
 
           <!--area telefone fixo-->
           <div class="input-box">
             <label for="Telefone Fixo">Telefone Fixo</label>
             <input type="text" id="tel-fixo" name="tel-fixo" placeholder="Insira seu telefone fixo" maxlength="12"
-              pattern="[0-9]{12}" onblur="formatatelephone(this)" required>
+              pattern="[0-9]{12}" onblur="formatatelephone(this)">
+
+            <small>Error message</small>
+
           </div>
 
           <!--area endereço-->
@@ -73,38 +87,53 @@
             <label for="Endereço">Endereço</label>
             <input type="text" id="endereco" name="endereço" placeholder="Insira seu endereço"
               oninvalid="this.setCustomValidity('Preencha com seu endereço completo')"
-              oninput='this.setCustomValidity("")' required>
+              oninput='this.setCustomValidity("")'>
+
+            <small>Error message</small>
+
           </div>
 
           <!--area login-->
           <div class="input-box">
             <label for="login">Login</label>
-            <input type="login" id="login" name="login" placeholder="Crie seu login" required>
+            <input type="login" id="login" name="login" placeholder="Crie seu login">
+
+            <small>Error message</small>
+
           </div>
 
 
           <!--area sexo-->
           <div class="select-box">
             <label for="sexo">Sexo</label>
-            <select name="sexo" id="sexo" required>
+            <select name="sexo" id="sexo">
               <option value="masculino">Masculino</option>
               <option value="feminino">Feminino</option>
               <option value="outro">Outro</option>
             </select>
+
+            <small>Error message</small>
+
           </div>
 
           <!--area senha-->
           <div class="input-box">
             <label for="senha">Senha</label>
             <input type="password" id="password" name="password" placeholder="Crie sua senha"
-              oninvalid="this.setCustomValidity('Preencha com a senha')" oninput='this.setCustomValidity("")' required>
+              oninvalid="this.setCustomValidity('Preencha com a senha')" oninput='this.setCustomValidity("")'>
+
+            <small>Error message</small>
+
           </div>
 
           <!--area confirmar senha-->
           <div class="input-box">
             <label for="senha">Confirme a senha</label>
             <input type="password" id="passwordtwo" name="passwordtwo" placeholder="Confirme sua senha"
-              oninvalid="this.setCustomValidity('Preencha com a senha')" oninput='this.setCustomValidity("")' required>
+              oninvalid="this.setCustomValidity('Preencha com a senha')" oninput='this.setCustomValidity("")'>
+
+            <small>Error message</small>
+
           </div>
         </div>
 
@@ -117,6 +146,7 @@
       <!--Fim do form-->
     </div>
   </div>
+
 
   <script src="../js/validation.js"></script>
 </body>

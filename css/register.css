@@ -216,12 +216,12 @@ body {
 /* INPUT ERROR E SUCCESS */
 .input-box.success input,
 .select-box.success label {
-  border: 2px solid #4eca64;
+  border: 3px solid #4eca64;
 }
 
 .input-box.error input,
 .select-box.error select {
-  border: 2px solid #db5a5a;
+  border: 3px solid #db5a5a;
 }
 
 .input-box.error small,
