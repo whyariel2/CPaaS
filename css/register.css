@@ -64,30 +64,29 @@ body {
 }
 
 .select-box {
-  display: flex;
+  padding-top: 20px;
 }
 
 .submit-button {
   padding-left: 35%;
 }
 
-.submit-button button {
-  color: #fff;
-}
-
-.login-button a {
+.login-button button {
   border: none;
   background-color: var(--defaut-color);
   padding: 0.4rem 1rem;
   border-radius: 5px;
   cursor: pointer;
-  text-decoration: none;
-  font-weight: 300;
-  color: #fff;
 }
 
-.login-button a:hover {
+.login-button button:hover {
   background-color: var(--default-color2);
+}
+
+.login-button button a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
 }
 
 .form-header h1::after {
@@ -121,7 +120,6 @@ body {
 
 .input-box input,
 .select-box select {
-  display: block;
   height: 45px;
   border: none;
   border-radius: 10px;
@@ -167,10 +165,6 @@ body {
   color: #fff;
 }
 
-.already {
-  padding-right: 5px;
-}
-
 @media screen and (max-width: 1330px) {
   .form-image {
     display: none;
@@ -197,15 +191,6 @@ body {
     flex-wrap: nowrap;
     max-height: 10rem;
     padding-right: 5rem;
-  }
-
-  .already {
-    display: none;
-  }
-
-  .login-button a {
-    padding: 3px 7px;
-    margin-left: 15px;
   }
 }
 
