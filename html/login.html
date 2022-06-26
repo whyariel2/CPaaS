@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="/img/logo.svg" type="image/x-icon">
   <link rel="stylesheet" href="../css/login.css">
   <title>Login CPaaS</title>
 </head>
@@ -22,6 +23,14 @@
           <i class='fa fa-user'></i>
           <input type="text" placeholder="Insira seu login" oninvalid="this.setCustomValidity('Preencha com seu login')"
             oninput='this.setCustomValidity("")' autocomplete="off" required>
+
+          <!-- === ICON SUCCESS === -->
+          <i class="fa-solid fa-circle-check img-success"></i>
+
+          <!-- === ICON ERROR === -->
+          <i class="fa-solid fa-circle-exclamation img-error"></i>
+
+          <small>Error message</small>
         </div>
 
         <!-- área senha -->
@@ -30,6 +39,14 @@
           <input type="password" placeholder="Insira sua senha"
             oninvalid="this.setCustomValidity('Preencha com sua senha')" oninput='this.setCustomValidity("")'
             autocomplete="off" required>
+
+          <!-- === ICON SUCCESS === -->
+          <i class="fa-solid fa-circle-check img-success"></i>
+
+          <!-- === ICON ERROR === -->
+          <i class="fa-solid fa-circle-exclamation img-error"></i>
+
+          <small>Error message</small>
         </div>
         <!-- "botão" entrar -->
         <div class="input-box">

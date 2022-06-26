@@ -34,8 +34,7 @@
           </a>
 
           <!-- === Button quando houver o Collapse === -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -47,8 +46,7 @@
 
               <!-- Drop Down Menu -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Serviços
                 </a>
                 <ul class="dropdown-menu" aria-labelledby=navbarDropdownMenuLink">
@@ -82,68 +80,106 @@
 
   <!-- === Corpo da Página === -->
   <main>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 class="h1-title text-center">SMS PROGRAMÁVEL</h1>
-        </div>
-        <div class="col-6">
-          <h2 id="h2-title">O que é?</h2>
-          <p><span class="cinza">Conecte-se com seus clientes.</span></p>
+    <!-- === Topo/Inicio da página === -->
+    <div id="sms-programavel">
+      <div class="container-fluid">
 
-          <p> É muito provável que você já tenha recebido uma mensagem de texto de uma empresa ou organização.</p>
+        <!-- === Grid === -->
+        <div class="row">
 
-          <p> Com uma API, qualquer empresa pode enviar mensagens de texto e impactar clientes, prospects ou
-            fornecedores
-            como parte de seu processo comercial.</p>
+          <!-- === Título H1 === -->
+          <div class="col-12">
+            <h1 class="title text-center">SMS PROGRAMÁVEL</h1>
+          </div>
 
-          <p> Com essa ferramenta você envia mensagens de SMS com as informações que o seu cliente precisa e com a
-            segurança, a velocidade e a confiabilidade que você espera.</p>
-        </div>
-        <div class="col-6">
-          <img src="../img/cell-phone-bro.svg" alt="Foto representando SMS Programável">
+          <!-- === Título H2 + P === -->
+          <div class="col-6">
+            <h2 class="main-title fs-1">O que é?</h2>
+            <p><span>Conecte-se com seus clientes.</span></p>
+
+            <p> É muito provável que você já tenha recebido uma mensagem de texto de uma empresa ou organização.</p>
+
+            <p> Com uma API, qualquer empresa pode enviar mensagens de texto e impactar clientes, prospects ou
+              fornecedores
+              como parte de seu processo comercial.</p>
+
+            <p> Com essa ferramenta você envia mensagens de SMS com as informações que o seu cliente precisa e com a
+              segurança, a velocidade e a confiabilidade que você espera.</p>
+          </div>
+
+          <!-- === IMG === -->
+          <div class="col-5">
+            <img src="../img/cell-phone-bro.svg" alt="Foto representando SMS Programável" class="img-fluid">
+          </div>
+
         </div>
       </div>
     </div>
-    <div class="container ">
-      <div class="row align-self-center justify-content-center">
-        <div class="col-12">
-          <h4>SMS é a forma mais rápida, eficiente e de baixo custo para se comunicar com seus clientes.</h4>
-        </div>
-        <div class="col-3">
-          <p><span class="p-blue lg">98%</span><br> de taxa de abertura</p>
 
-          <p><span class="p-blue lg">80%</span><br> das pessoas interagem com SMS comerciais.</p>
-        </div>
-        <div class="col-3">
-          <p><span class="p-blue lg">90%</span><br>dos SMS são lidos em até 3 minutos.</p>
+    <!-- === Meio da página === -->
+    <div id="area-meio">
+      <div class="container">
 
-          <p><span class="p-blue lg">35x</span><br>maior a probabilidade de um cliente abrir um SMS do que um e-mail.
-          </p>
+        <!-- === Grid === -->
+        <div class="row align-self-center justify-content-center">
+
+          <!-- === Título H2 === -->
+          <div class="col-12">
+            <h4 class="title main-title fs-5 text-center">SMS é a forma mais rápida, eficiente e de baixo custo para se comunicar com seus clientes.</h4>
+          </div>
+
+          <!-- === Primeira Coluna === -->
+          <div class="col-3">
+            <p><span>98%</span><br> de taxa de abertura</p>
+
+            <p><span>80%</span><br> das pessoas interagem com SMS comerciais.</p>
+          </div>
+
+          <!-- === Segunda Coluna === -->
+          <div class="col-3">
+            <p><span>90%</span><br>dos SMS são lidos em até 3 minutos.</p>
+
+            <p><span>35x</span><br>maior a probabilidade de um cliente abrir um SMS do que um e-mail.
+            </p>
+          </div>
+
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-12">
-          <h2 class="text-center">Benefícios</h2>
-        </div>
 
-        <div class="col-6">
-          <img id="foto-end" src="../img/in-no-time.svg" alt="Foto representando os Benefícios">
-        </div>
+    <!-- === Área Benefícios === -->
+    <div id="beneficios">
+      <div class="container">
 
-        <div class="col-6">
-          <ul>
-            <li class="cinza">Comunicação rápida, efetiva e escalável.</li>
-            <li class="cinza">Baixo custo.</li>
-            <li class="cinza">Alta taxa de entrega e leitura.</li>
-            <li class="cinza">Personalização de data, hora e conteúdo.</li>
-            <li class="cinza">Agendamento de campanhas.</li>
-            <li class="cinza">Interação bidirecional: recebimento de respostas.</li>
-            <li class="cinza">Plataforma user-friendly.</li>
-            <li class="cinza">Acompanhamento de métricas e relatórios.</li>
-          </ul>
+        <!-- === Grid === -->
+        <div class="row align-items-center">
+
+          <!-- === Texto H2 === -->
+          <div class="col-12">
+            <h2 class="title text-center">Benefícios</h2>
+          </div>
+          <!-- === IMG === -->
+          <div class="col-6">
+            <img id="foto-end" src="../img/in-no-time.svg" alt="Foto representando os Benefícios">
+          </div>
+
+          <!-- === Lista de Benefícios === -->
+          <div class="col-6">
+            <ul>
+              <li>Comunicação <span>rápida</span>, <span>efetiva</span> e <span>escalável.</span></li>
+              <li><span>Baixo custo</span>.</li>
+              <li>Alta taxa de <span>entrega</span> e <span>leitura.</span></li>
+              <li>Personalização de <span>data</span>, <span>hora</span> e <span>conteúdo.</span></li>
+              <li><span>Agendamento de campanhas.</span></li>
+              <li>Interação bidirecional: <span>recebimento de respostas.</span></li>
+              <li>Plataforma <span>user-friendly.</span></li>
+              <li>Acompanhamento de <span>métricas</span> e <span>relatórios.</span></li>
+            </ul>
+          </div>
+
+          <!-- === Linha Azul === -->
+          <div class="col"></div>
+
         </div>
       </div>
     </div>
@@ -153,6 +189,8 @@
   <footer>
     <div id="footer">
       <div class="container">
+
+        <!-- === Grid === -->
         <div class="row">
 
           <!-- === CONTATO === -->
@@ -175,8 +213,7 @@
 
           <!-- === COPYRIGHT === -->
           <div class="col-md-4 box box-center">
-            <img class="img-fluid" src="https://www.telecall.com/media/images/telecall-logo.svg?v=2"
-              alt="Logo Telecall">
+            <img class="img-fluid" src="https://www.telecall.com/media/images/telecall-logo.svg?v=2" alt="Logo Telecall">
             <p>Copyright &copy; 2022.</p>
           </div>
 
@@ -192,14 +229,12 @@
 
               <!-- === INSTAGRAM === -->
               <div class="col-itens">
-                <a href="https://www.instagram.com/telecallbr/" target="_blank"><i
-                    class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/telecallbr/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
               </div>
 
               <!-- === LINKEDIN === -->
               <div class="col-itens">
-                <a href="https://www.linkedin.com/company/telecall/" target="_blank"><i
-                    class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/company/telecall/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
               </div>
 
             </div>
@@ -210,14 +245,10 @@
   </footer>
 
   <!-- Poppers JS BootStrap Link -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 
   <!-- JS BootStrap Link -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
   <!-- Jquery Link -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

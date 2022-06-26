@@ -9,24 +9,24 @@ jQuery(document).ready(function ($) {
   };
 
   // SCROLL PARA SESSÕES
-  let navBtn = $(".nav-item");
+  let navBtn = $('.nav-item');
 
-  let contactSection = $("#footer");
+  let contactSection = $('#footer');
 
-  let scrollTo = "";
+  let scrollTo = '';
 
   $(navBtn).click(function () {
-    let btnId = $(this).attr("id");
+    let btnId = $(this).attr('id');
 
-    if (btnId == "contact-menu") {
+    if (btnId == 'contact-menu') {
       scrollTo = contactSection;
     }
 
     $([document.documentElement, document.body]).animate(
       {
-        scrollTo: $(scrollTo).offset.top - 92,
+        scrollTop: $(scrollTo).offset().top - 92,
       },
-      1500
+      150
     );
   });
 });
