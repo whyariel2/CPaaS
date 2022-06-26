@@ -33,6 +33,12 @@
     padding: 1.5rem 0;
   }
 
+  /* === THEME BUTTON === */
+  .change-theme {
+    position: absolute;
+    right: 10%;
+  }
+
   /* === MAIN === */
   #main .container-fluid {
     padding: 1.5rem 36px;
@@ -110,6 +116,12 @@
 
 /* === MOBILE SCREEN === */
 @media (max-width: 425px) {
+  /* === THEME BUTTON === */
+  .change-theme {
+    position: absolute;
+    right: 17%;
+  }
+
   /* === SERVICES === */
   #services .col-md-6 {
     width: 50%;

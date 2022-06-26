@@ -97,6 +97,22 @@ span {
   padding: 4rem 0;
 }
 
+/* === CHANGE THEME BUTTON === */
+body.dark-theme {
+}
+
+.change-theme {
+  position: absolute;
+  right: 13%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--grey-medium);
+}
+
+.change-theme:hover {
+  color: var(--grey-medium);
+}
+
 /* === HEADER === */
 #header {
   width: 100%;
